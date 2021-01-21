@@ -22,9 +22,9 @@ public class HttpPost {
 
   // HTTP POST request
   private void sendPost() throws Exception {
-    final String FILENAME = "c:/HttpSandbox_HttpGet.txt";
+    final String FILENAME = "HttpSandbox_HttpPost.txt";
     String url = "https://selfsolve.apple.com/wcResults.do";
-    url = "https://www.amazon.com/s/browse/ref=gbps_img_s-3_e9fb_8bf7b34f";
+    // url = "https://www.amazon.com/s/browse/ref=gbps_img_s-3_e9fb_8bf7b34f";
 
     URL obj = new URL(url);
     HttpsURLConnection con = (HttpsURLConnection) obj.openConnection();
@@ -35,7 +35,7 @@ public class HttpPost {
     con.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
 
     String urlParameters = "sn=C02G8416DRJM&cn=&locale=&caller=&num=12345";
-    urlParameters = "ie=UTF8&node=15676227011&smid=ATVPDKIKX0DER&pf_rd_p=4a61b383-8767-4471-a83a-ab3d2bd4e9fb&pf_rd_s=slot-3&pf_rd_t=701&pf_rd_i=gb_main&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=JFXYS62R8SS62EEYTTJK";
+    // urlParameters = "ie=UTF8&node=15676227011&smid=ATVPDKIKX0DER&pf_rd_p=4a61b383-8767-4471-a83a-ab3d2bd4e9fb&pf_rd_s=slot-3&pf_rd_t=701&pf_rd_i=gb_main&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=JFXYS62R8SS62EEYTTJK";
 
     // Send post request
     con.setDoOutput(true);

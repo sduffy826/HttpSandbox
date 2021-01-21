@@ -22,7 +22,7 @@ public class HttpGet {
 
   // HTTP GET request
   private void sendGet() throws Exception {
-    final String FILENAME = "c:/HttpSandbox_HttpGet.txt";
+    final String FILENAME = "HttpSandbox_HttpGet.txt";
     String url = "http://www.google.com/search?q=inserra";
 
     URL obj = new URL(url);
